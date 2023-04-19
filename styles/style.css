@@ -1,0 +1,55 @@
+header section{
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 3%;
+    background-color: #588bae;
+    border-radius: 3%;
+    text-shadow: 3px 3px 5px black;
+    box-shadow: 3px 3px 5px black;
+}
+
+ h1 {
+    display:flex;
+    align-items: center;
+    color:antiquewhite;
+ }
+
+img{
+    width: 23%;
+    height: auto;
+    box-shadow: 3px 3px 5px black;
+}
+
+h2 {
+    display: flex;
+    justify-content: left;
+    text-shadow: 3px 3px 5px black;
+}
+
+.lesson {
+    padding: 15px;
+    border-style:solid;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: black;
+}
+
+footer {
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 3%;
+    background-color: #588bae;
+    border-radius: 3%;
+    box-shadow: 3px 3px 5px black;
+    color:antiquewhite;
+}
+
+span  {
+    color:aquamarine;
+}
