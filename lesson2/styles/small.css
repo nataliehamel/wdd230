@@ -36,6 +36,9 @@ section {
 main {
     grid-template-columns: 1fr 1fr;
 }   
+.amazon{
+    grid-column: span 2;
+}
 }
 
 /*Desktop views ***********************************/
@@ -43,4 +46,7 @@ main {
 main {
     grid-template-columns: 1fr 1fr 1fr;
 } 
+.amazon{
+    grid-column: span 1;
+}
 }
