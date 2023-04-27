@@ -1,0 +1,46 @@
+h1, h2, h3, p {font-family: 'Poppins', sans-serif;}
+
+main { 
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content:center;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+header, footer{
+    display: grid;
+    justify-items:center;
+    background-color: rgb(29, 179, 248);
+    Padding: 2%;
+}
+
+section {
+    display:grid;
+    justify-items: center;
+    justify-content:space-between;
+    background-color: rgb(190, 215, 224);
+    border-radius: 5%;
+    padding: 5%;
+    margin:1rem;
+}
+
+
+
+
+/*Tablet views ***********************************/
+@media only screen and (min-width: 37.5em) {
+main {
+    grid-template-columns: 1fr 1fr;
+}   
+}
+
+/*Desktop views ***********************************/
+@media only screen and (min-width: 60em) {
+main {
+    grid-template-columns: 1fr 1fr 1fr;
+} 
+}
