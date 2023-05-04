@@ -1,0 +1,103 @@
+h1, h2, h3, p {font-family: 'Poppins', sans-serif;}
+
+header {
+    background-color: #457B9D;
+    color: #F1FAEE;
+}
+
+nav, a, footer{
+    background-color: #1D3557;
+    color: #F1FAEE;
+}
+
+a:hover {
+    color:#E63946;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    padding: 2%;
+}
+
+.target{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+main { 
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content:center;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+header{
+    display:flex;
+    padding: 2%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+nav, footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    Padding: 2%;
+    margin: auto;
+}
+
+section {
+    display:grid;
+    justify-items: center;
+    justify-content:space-between;
+    background-color: #A8DADC;
+    border-radius: 5%;
+    padding: 5%;
+    margin:1rem;
+}
+
+.logo1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*Tablet views ***********************************/
+@media only screen and (min-width: 37.5em) {
+main {
+    grid-template-columns: 1fr 1fr;
+}   
+.scenarios{
+    grid-column: span 2;
+}
+
+.target {
+    grid-column: span 2;
+}
+}
+
+/*Desktop views ***********************************/
+@media only screen and (min-width: 60em) {
+main {
+    grid-template-columns: 1fr 1fr 1fr;
+} 
+.scenarios{
+    grid-column: span 3;
+}
+
+.target{
+    grid-column: span 3;
+}
+
+}
+
