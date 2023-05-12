@@ -1,0 +1,55 @@
+/*Tablet views ***********************************/
+@media only screen and (min-width: 37.5em) {
+ 
+    
+    
+    .logo{
+        width: 100px;
+    }
+    
+    .m {
+        letter-spacing: 1.5pt;
+        margin-left: 17px;
+        font-size: larger;
+    }
+    
+    .heading h1 {
+        font-size: 3rem;
+    }
+
+    footer {
+        display: flex;
+        padding: 5px 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main{
+        column-count: 2;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+    }
+    
+    .news {
+        grid-template-columns: 1fr;
+    }
+    
+    .spotlights {
+        grid-template-columns: 1fr;
+    }
+    
+    .join {
+        grid-template-columns: 1fr;
+    }
+    
+    .event {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .weather {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    }

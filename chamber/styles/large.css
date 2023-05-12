@@ -1,0 +1,47 @@
+/*Desktop views ***********************************/
+@media only screen and (min-width: 60em) {
+
+    
+    nav button {display:none;}
+    
+    nav ul#primaryNav {
+        display:flex;
+        justify-content: center;
+        margin-left: 2vw;
+    }
+    
+    nav ul li a{
+        border: none;
+        padding: .5rem 1rem;
+    }
+    
+    main{
+        column-count: 4;
+    }
+
+    .hero {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .news {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .spotlights {
+        grid-template-columns: 1fr;
+    }
+    
+    .join {
+        grid-template-columns: 1fr;
+    }
+    
+    .event {
+        grid-template-columns: 1fr;
+    }
+    
+    .weather {
+        grid-template-columns: 1fr;
+    }
+
+    }
+    
