@@ -53,6 +53,10 @@ nav, footer{
     margin: auto;
 }
 
+nav {
+    flex-direction: column;
+}
+
 section {
     display:grid;
     justify-items: center;
@@ -72,6 +76,7 @@ section {
 
 
 
+
 /*Tablet views ***********************************/
 @media only screen and (min-width: 37.5em) {
 main {
@@ -83,6 +88,10 @@ main {
 
 .target {
     grid-column: span 2;
+}
+
+nav {
+    flex-direction: row;
 }
 }
 
