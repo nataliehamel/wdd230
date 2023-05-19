@@ -111,8 +111,8 @@ main{
     border: solid;
     grid-template-columns: 1fr;
     padding: 5%;
-    color:#F1FAEE;
-    background-color:#1D3557;
+    color:#1D3557;
+    background-color:#F1FAEE;
     text-align: center;
 }
 
@@ -134,8 +134,8 @@ button {
     grid-template-columns: 1fr;
     padding: 5%;
     text-align: center;
-    color:#F1FAEE;
-    background-color: #1D3557;
+    color:#1D3557;
+    background-color:#F1FAEE;
 }
 
 .spotlights, .p {
@@ -143,12 +143,13 @@ button {
     border: solid;
     grid-template-columns: 1fr;
     padding: 5%;
-    color:#F1FAEE;
-    background-color:#1D3557;
+    color:#1D3557;
+    background-color:#F1FAEE;
 }
 
 .p {
     background-color: #457B9D;
+    color:#F1FAEE;
     text-align: center;
 }
 
@@ -157,8 +158,8 @@ button {
     border: solid;
     grid-template-columns: 1fr;
     padding: 5%;
-    color:#F1FAEE;
-    background-color:#1D3557;
+    color:#1D3557;
+    background-color:#F1FAEE;
     text-align: center;
 }
 
@@ -167,8 +168,8 @@ button {
     border:solid;
     grid-template-columns: 1fr;
     padding: 5%;
-    color:#F1FAEE;
-    background-color:#1D3557;
+    color:#1D3557;
+    background-color:#F1FAEE;
     text-align: center;
 }
 
