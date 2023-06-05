@@ -6,7 +6,7 @@ function calculateWindChill() {
     var temperature = parseFloat(temperatureElement.textContent);
     var windSpeed = parseFloat(windSpeedElement.textContent);
   
-    if (temperature <= 10 && windSpeed > 3.0) {
+    if (temperature <= 50 && windSpeed > 3.0) {
       var windChill = calculateFormula(temperature, windSpeed);
       windChillElement.textContent = "Wind Chill: " + windChill.toFixed(2) + "&#176C";
     } else {
