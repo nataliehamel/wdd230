@@ -1,24 +1,40 @@
-body h1{
+
+
+body h1, p{
     text-align: center;
 }
 
 table {
     border-collapse: collapse;
     width: 100%;
-  }
+}
   
-  thead th {
-    background-color: #f2f2f2;
+thead th {
+    background-color: pink;
     font-weight: bold;
     text-align: left;
     padding: 8px;
-  }
+    border: 1px solid #ddd;
+}
+
+tbody {
+    font-weight: bold;
+}
   
-  tbody tr:nth-child(even) {
+tbody tr:nth-child(even) {
     background-color: #f9f9f9;
-  }
+}
   
-  tbody td {
+tbody td {
     padding: 8px;
-    text-align: left; /* Updated: Align content to the left */
-  }
+    text-align: left; 
+    border: 1px solid #ddd;
+}
+
+.table-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+}
+  
