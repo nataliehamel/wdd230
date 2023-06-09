@@ -37,6 +37,42 @@
             </nav>
         </header>
         <main>
+            <h1>Join the Chamber of Commerce</h1>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label>First Name* <input type="text" name="fname" required></label><br><br>
+                    <label>Last Name* <input type="text" name="lname" required></label><br><br>
+                    <label>Business Position Title (Please enter at least 7 alpha characters, hyphens, or spaces.) <input type="text" name="position-title" pattern="[A-Za-z\s\-]{7,}"></label><br><br>
+                    <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label><br><br>
+                    <label>Phone* <input type="tel" name="phone" placeholder="1235551234" required></label><br><br>
+                    <label>Business* <input type="text" name="bname" required></label><br><br>
+                    <label for="business-description">Business Description:</label><br>
+                    <textarea id="business-description" name="business-description" rows="4" cols="50"></textarea><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Membership Options</legend>
+                    <label><input type="radio" name="membership" value="NP">NP Membership</label><br><br>
+                    <label><input type="radio" name="membership" value="Bronze">Bronze Membership</label><br><br>
+                    <label><input type="radio" name="membership" value="Silver">Silver Membership</label><br><br>
+                    <label><input type="radio" name="membership" value="Gold">Gold Membership</label><br><br>
+
+                    <div>
+                        <h3>Membership Benefits</h3>
+                        <p>NP Membership is for non profit organizations and there is no fee. This membership includes access to listings on the home page spotlights, event discounts, and networking opportunites.</p>
+                        <p>Bronze Membership costs $25 a year. This membership includes all NP membership benefits as well as additional advertising opportunites, priotority even registrations, and priority support.</p>
+                        <p>Silver Membership costs $50 a year. This membership includes all Bronze membership benefits as well as enhanced advertising options, increased event discounts, and premium support.</p>
+                        <p>Gold Membership costs $75 a year. This membership includes all Silver membership benefits as well as exclusive advertising benefits, highest event discounts, and priority access to resources and support.</p>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Submit Application for Review</legend>
+                    <input type="hidden" id="form-loaded-datetime" name="form-loaded-datetime" value="">
+                    <input type="submit" value="Join">
+                </fieldset>
+            </form>
         </main>
         <footer>
             <img class ='logo' src="images/logo.png" alt="logo"> 
