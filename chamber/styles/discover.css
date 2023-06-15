@@ -165,7 +165,7 @@ figcaption {
 
 img[data-src] {
     filter: blur(0.5em);
-    transition: filter 5s;
+    transition: 5s;
 }
   
 img {
