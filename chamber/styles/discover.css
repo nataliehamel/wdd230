@@ -158,6 +158,11 @@ body nav{
     justify-content: space-evenly;
 }
 
+figcaption {
+    margin: 5px;
+    padding: 5px;
+}
+
 img[data-src] {
     filter: blur(0.5em);
     transition: filter 5s;
