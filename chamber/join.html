@@ -38,7 +38,7 @@
         </header>
         <main>
             <h1>Join the Chamber of Commerce</h1>
-            <form method="get" action="thankyou.html">
+            <form method="get" action="thankyou.html" onsubmit="setTimestamp()">
                 <fieldset>
                     <legend>Applicant Information</legend>
                     <label>First Name* <input type="text" name="fname" required></label><br><br>
@@ -70,7 +70,7 @@
                 <fieldset>
                     <legend>Submit Application for Review</legend>
                     <input type="hidden" id="form-loaded-datetime" name="form-loaded-datetime" value="">
-                    <input type="submit" value="Join">
+                    <input type="submit" value="Join" onclick="setTimestamp()">
                 </fieldset>
             </form>
         </main>
@@ -88,9 +88,8 @@
                 <div id="lastModified">Last updated: <span class = "currentdate"></span></div>
                 <script src ="scripts/script.js"></script>
                 <script src ="scripts/toggle.js"></script>
-                <script src ="scripts/windchill.js"></script>
                 <script src ="scripts/banner.js"></script>
-                <script src ="scripts/lazyload.js"></script>
+                <script src ="scripts/join.js"></script>
             </section>
         </footer>
     </body>
