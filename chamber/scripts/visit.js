@@ -8,23 +8,23 @@ function getDaysSinceLastVisit() {
       return daysSinceLastVisit;
     }
     return null;
-  }
+}
   
-  function displayVisitInfo() {
+function displayVisitInfo() {
     const daysSinceLastVisit = getDaysSinceLastVisit();
     if (daysSinceLastVisit !== null) {
       const visitInfo = document.getElementById("visitInfo");
       visitInfo.textContent = `Days since your last visit: ${daysSinceLastVisit}`;
     }
-  }
+}
   
-  function saveVisitTimestamp() {
+function saveVisitTimestamp() {
     const currentTimestamp = new Date().getTime();
     localStorage.setItem("lastVisitTimestamp", currentTimestamp);
-  }
+}
   
-  // Call the necessary functions when the page loads
-  window.addEventListener("load", () => {
+// Call the necessary functions when the page loads
+window.addEventListener("load", () => {
     displayVisitInfo();
     saveVisitTimestamp();
-  });
+});
