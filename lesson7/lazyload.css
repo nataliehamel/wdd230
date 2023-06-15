@@ -6,7 +6,6 @@ body {
 }
 
 img[data-src] {
-    filter: blur(0.2em);
     transition: 0.5s;
 }
   
