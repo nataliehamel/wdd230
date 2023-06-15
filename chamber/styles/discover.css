@@ -164,7 +164,6 @@ figcaption {
 }
 
 img[data-src] {
-    filter: blur(0.5em);
     transition: 5s;
 }
   
