@@ -159,13 +159,18 @@ body nav{
 }
 
 img[data-src] {
-    filter: blur(0.2em);
+    filter: blur(0.5em);
+    transition: filter 5s;
 }
   
 img {
-    filter: blur(0em);
-    transition: filter 0.5s;
+    filter: none;
 }
+
+#visitInfo {
+    text-align: center;
+    font-size: 14px;
+  }
 
 
 /*Tablet views ***********************************/
