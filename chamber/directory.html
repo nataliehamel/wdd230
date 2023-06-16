@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width">
         <title>Discover Page</title>
         <meta name="description"  content="The chamber of commerce project discover page build for Natalie Hamel in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-        <link rel='stylesheet' type="text/css" href="styles/discover.css" media="screen">
+        <link rel='stylesheet' type="text/css" href="styles/directory.css" media="screen">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
@@ -37,7 +37,15 @@
             </nav>
         </header>
         <main>
-
+            <h1>Business Directory</h1>
+            <div class="view-toggle">
+                <button id="list-view-toggle">List View</button>
+                <button id="card-view-toggle">Card View</button>
+            </div>
+            <div class="directory-container">
+                <div id="list-view"></div>
+                <div id="card-view"></div>
+            </div>
         </main>
         <footer>
             <img class ='logo' src="images/logo.png" alt="logo"> 
@@ -54,6 +62,7 @@
                 <script src ="scripts/script.js"></script>
                 <script src ="scripts/toggle.js"></script>
                 <script src ="scripts/banner.js"></script>
+                <script src ="scripts/cards.js"></script>
             </section>
         </footer>
     </body>

@@ -1,0 +1,92 @@
+{
+    "companies": [
+        {
+            "name": "Bob's Shaver Lake Market",
+            "address": "41781 Tollhouse Rd, Shaver Lake, CA, 93664",
+            "phonenumber": "559-841-7104",
+            "websiteURL": "https://bobsmarket.com/",
+            "image": "images/bobsmarket.jpg",
+            "membership": "NP"
+        },
+        {
+            "name": "Shaver Lake Sports Inc",
+            "address": "41777 Tollhouse Rd, Shaver Lake, CA 93664",
+            "phonenumber": "559-841-2740",
+            "websiteURL": "https://www.shaverlakesports.com/",
+            "image": "images/sportsinc.jpg",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Ken's Market",
+            "address": "42137 Tollhouse Rd, Shaver Lake, CA, 93664",
+            "phonenumber": "559-841-3549",
+            "websiteURL": "https://kensmarket.com/",
+            "image": "images/kensmarket.jpg",
+            "membership": "NP"
+        },
+        {
+            "name": "Shaver Lake Pizza",
+            "address": "41820 Tollhouse Rd, Shaver Lake, CA, 93664-9998",
+            "phonenumber": "559-841-7249",
+            "websiteURL": "https://shaverlakepizza.com/",
+            "image": "images/pizza.jpg",
+            "membership": "Gold"
+        },
+        {
+            "name": "China Peak Mountain Resort",
+            "address": "59265 CA-168, LakeShore, CA 93634",
+            "phonenumber": "559-233-2500",
+            "websiteURL": "https://www.skichinapeak.com/",
+            "image": "images/chinapeak.jpg",
+            "membership": "Gold"
+        },
+        {
+            "name": "Dinkey Creek Campground",
+            "address": "53001 Dinkey Creek Rd, Shaver Lake, CA, 93664",
+            "phonenumber": "559-355-7793",
+            "websiteURL": "https://www.recreation.gov/camping/campgrounds/232136",
+            "image": "images/dinkey.jpg",
+            "membership": "Silver"
+        },
+        {
+            "name": "Shaver Lake Marina",
+            "address": "42696 Tollhouse Rd, Shaver Lake, CA, 93664-9998",
+            "phonenumber": "559-841-5332",
+            "websiteURL": "https://shaverlakemarina.com/",
+            "image": "images/marina.jpg",
+            "membership": "Silver"
+        },
+        {
+            "name": "Shaver Lake Library",
+            "address": "41344 Tollhouse Rd, Shaver Lake, CA, 93664",
+            "phonenumber": "559-841-3330",
+            "websiteURL": "https://www.fresnolibrary.org/branch/shlk.html",
+            "image": "images/library.jpg",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Hungry Hut",
+            "address": "42008 Tollhouse Rd, Shaver Lake, CA, 93664",
+            "phonenumber": "559-841-3222",
+            "websiteURL": "https://www.hungryhutshaver.com/",
+            "image": "images/hungryhut.jpg",
+            "membership": "Silver"
+        },
+        {
+            "name": "Shaver Coffee & Deli",
+            "address": "414758 Tollhouse Rd, Shaver Lake, CA, 93664",
+            "phonenumber": "559-842-5555",
+            "websiteURL": "https://shavercoffeeanddeli.com/",
+            "image": "images/deli.jpg",
+            "membership": "NP"
+        },
+        {
+            "name": "Shaver Lake Snow Removal Inc",
+            "address": "Shaver Lake, CA, 93664-9998",
+            "phonenumber": "559-841-3468",
+            "websiteURL": "http://shaverlakesnowremoval.com/",
+            "image": "images/snowremoval.jpg",
+            "membership": "Gold"
+        }
+    ]
+}
