@@ -163,7 +163,7 @@
   .list-item {
     width: 100%;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #E63946;
   }
   
   .list-item h2 {
@@ -179,7 +179,7 @@
   }
   
   .card-item {
-    border: 1px solid #ccc;
+    border: 1px solid #E63946;
     padding: 20px;
     text-align: center;
   }
