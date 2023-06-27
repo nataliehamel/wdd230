@@ -102,6 +102,20 @@ main{
     justify-content: center;
 }
 
+main {
+    justify-content: center;
+    align-content: center;
+    margin: 1rem;
+}
+
+.general {
+    padding: 2rem;
+    justify-content: center;
+    align-content: center;
+    background-color: #457B9D;
+    color:#F1FAEE;
+}
+
 legend{
     font-weight: bolder;
 }
@@ -163,7 +177,7 @@ body nav{
 .team {
     margin:auto;
     padding:5px;
-    max-width: 25%;
+    max-width: 100%;
     max-height: auto;
 }
 
@@ -191,6 +205,8 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+
 
 }
 
@@ -220,5 +236,9 @@ body nav {
     grid-column: 3/9;
     grid-row: 1/1;
     display: flex;
+}
+
+main div section{
+    column-count: 2;
 }
 }
