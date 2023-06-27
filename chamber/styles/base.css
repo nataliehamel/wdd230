@@ -245,3 +245,7 @@ body nav{
     text-align: center;
 }
 
+.spotlight {
+    max-width: 70%;
+    max-height: auto;
+}
