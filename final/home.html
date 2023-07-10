@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Final Project: Bountiful Foods</title>
+        <meta name="description"  content="The final project for Natalie Hamel in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+        <link rel='stylesheet' type="text/css" href="base.css" media="screen">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <header>
+            <img class ='logo' src="images/logo.png" alt="logo"> 
+            <section class="headings">
+                <h1>Bountiful Foods</h1>
+                <div class="m">Organic and Locally Grown</div>
+                <p><span class = "currentdate"></span></p>
+                <script src="scripts/script.js"></script>
+            </section>
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav"> 
+                    <li><a href='https://nataliehamel.github.io/wdd230/final/home.html'>Home</a></li>
+                    <li><a href='https://nataliehamel.github.io/wdd230/final/fresh.html'>Fresh</a></li>
+                    <li><a href='https://nataliehamel.github.io/wdd230/final/aboutus.html'>About Us</a></li>
+                </ul>
+                <a class= "social" href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
+                <a class= "social" href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="Twitter"></a>
+            </nav>
+        </header>
+        <main class="sections">
+            <section class="hero">
+                <h1>Contact Us!</h1>
+                <p>Address: 41777 Bay Ln, Carlsbad, CA 92011</p>
+                <p>Phone: 760-123-4567</p>
+                <p>Email: BountifulFoods@gmail.com</p>
+                <form action="https://nataliehamel.github.io/wdd230/final/aboutus.html">
+                    <button type="button">Learn More!</button>
+                </form>
+                <figure class="herophoto">
+                    <img src="images/hero.jpg" alt="hero">
+                </figure>
+            </section>
+            <section class="summary">
+                <h2>Carlsbad California</h2>
+                <h3>Visit us and many other wonderful attractions!</h3>
+                <p>Carlsbad is home to many beautiful and fun sites! Visit Tamarack Surf Beach, the Legoland theme park, the flower fields, or the Leo Carrillo Ranch Historic Park which is home to free-roaming peacocks, and of course us!</p>
+            </section>
+            <section class="spotlights">
+                <div class="p">
+                    <h2>Shaver Lake Sports Inc</h2>
+                    <h3>"Best Lake Amenities in Town!"</h3>
+                    <img class="spotlight" src="images/sportsinc.jpg" alt="sports">
+                    <p>Address: 41777 Tollhouse Rd, Shaver Lake, CA 93664</p>
+                    <p>Phone: 559-841-2740</p>
+                    <p>Website: https://www.shaverlakesports.com/</p>
+                </div>
+                <p> </p>
+                <div class="p">
+                    <h2>Hungry Hut</h2>
+                    <h3>Open 11am-7pm on weekdays and 11am-8pm on weekends</h3>
+                    <img class="spotlight" src="images/hungryhut.jpg" alt="sports">
+                    <p>Address: 42008 Tollhouse Rd, Shaver Lake, CA, 93664</p>
+                    <p>Phone: 559-841-3222</p>
+                    <p>Website: https://www.hungryhutshaver.com/</p>
+                </div>
+            </section>
+            <section class="drink">
+                <form action="https://nataliehamel.github.io/wdd230/final/fresh.html">
+                    <button type="button">Create a new drink!</button>
+                </form>
+                <p>Make your own specialized fruit drink with our organic and locally grown produce!</p>
+            </section>
+            <section class="weather">
+                <h2>Weather</h2>
+                <h2><span id="temperature">30</span>&#176F</h2>
+                <h3>Partly Cloudy</h3>
+                <p>Wind Speed: <span id="windSpeed">2.5</span> km/h</p>
+                <p>
+                    <span id="windChill"></span>
+                </p>
+            </section>
+        </main>
+        <footer>
+            <img class ='logo' src="images/logo.png" alt="logo"> 
+            <h3>Bountiful Foods</h3>
+            <h4>41777 Bay Ln, Carlsbad, California</h4>
+            <a href='#'>info@bountifulfoods.org</a>
+            <h4>+(760) 123-4567</h4>
+            <p>📍Location Map</p>
+            <section class="footer">
+                <h4>@ 2023 Bountiful Foods</h4>
+                <p>Natalie Hamel</p>
+                <h4>WDD 230 Final Project</h4>
+                <div id="lastModified">Last updated: <span class = "currentdate"></span></div>
+                <script src ="scripts/script.js"></script>
+                <script src ="scripts/toggle.js"></script>
+                <script src ="scripts/windchill.js"></script>
+            </section>
+        </footer>
+    </body>
+</html>
