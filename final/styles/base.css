@@ -8,8 +8,8 @@ body {
 
 
 header{
-    background-color: #457B9D;
-    color: #F1FAEE;
+    background-color: #6a994e;
+    color: #F2e8cf;
     display:flex;
     padding: 5px 0;
     align-items: center;
@@ -50,8 +50,8 @@ p{
 }
 
 nav, a, footer{
-    background-color: #1D3557;
-    color: #F1FAEE;
+    background-color: #386641;
+    color: #F2e8cf;
     margin: 0 auto;
     
 }
@@ -75,23 +75,23 @@ nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #F1FAEE;
+    color: #F2e8cf;
 }
 
 nav ul li a{
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    border-top: 1px solid rgba(0,0,0,0.5)
+    border-top: 1px solid #f4e285
 }
 
 nav ul li a:hover{
-    background-color: rgba(0,0,0,0.3);
+    background-color: #f4e285;
 }
 
 
 a:hover {
-    color:#E63946;
+    color: #bC4749; 
 }
 
 #hamburgerBtn span:nth-child(1) {display: block;}
@@ -112,7 +112,7 @@ main{
     border: solid;
     grid-template-columns: 1fr;
     padding: 5%;
-    color:#1D3557;
+    color:black;
     background-color:white;
     text-align: center;
 }
@@ -140,9 +140,13 @@ main figure.herophoto figcaption {
 }
 
 button {
-    background-color:#457B9D;
-    color:#F1FAEE;
-    border-color:#457B9D;
+    background-color:#a7c957;
+    color:black;
+    border-color:#a7c957;
+}
+
+header h1 {
+    color:#bC4749
 }
 
 .summary {
@@ -151,42 +155,35 @@ button {
     grid-template-columns: 1fr;
     padding: 5%;
     text-align: center;
-    color:#1D3557;
+    color:black;
     background-color:white;
 }
 
-.spotlights, .p {
+.spotlights{
     display: block;
     border: solid;
     grid-template-columns: 1fr;
     padding: 5%;
-    color:#1D3557;
-    background-color:white;
+    color:black;
+    background-color: #f4a259;
+    text-align: center;
 }
 
-.p {
-    background-color: #457B9D;
-    color:#F1FAEE;
-    text-align: center;
+.drinkpic {
+    width: 75%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 0 0 2%;
 }
 
 .drink {
     display: block;
     border: solid;
+    border-color: black;
     grid-template-columns: 1fr;
     padding: 5%;
-    color:#1D3557;
-    background-color:white;
-    text-align: center;
-}
-
-.event {
-    display: block;
-    border:solid;
-    grid-template-columns: 1fr;
-    padding: 5%;
-    color:#1D3557;
-    background-color:white;
+    color:white;
+    background-color:#6a994e;
     text-align: center;
 }
 
@@ -195,15 +192,15 @@ button {
     border:solid;
     grid-template-columns: 1fr;
     padding: 5%;
-    color:#F1FAEE;
-    background-color:#457B9D;
+    color:black;
+    background-color:white;
     text-align: center;
 }
 
 
 
 footer {
-    color: #F1FAEE;
+    color: #F2e8cf;
     display:flex;
     flex-direction: column;
     padding: 5px 0;
@@ -240,13 +237,135 @@ body nav{
     grid-column: 2/2;
 }
 
-#banner {
-    background-color:#E63946;
-    color: #F1FAEE;
-    text-align: center;
-}
-
 .spotlight {
     max-width: 70%;
     max-height: auto;
 }
+
+
+/*Tablet views ***********************************/
+@media only screen and (min-width: 37.5em) {
+ 
+
+    .logo{
+        width: 100px;
+    }
+    
+    .m {
+        letter-spacing: 1.5pt;
+        margin-left: 17px;
+        font-size: larger;
+    }
+    
+    .heading h1 {
+        font-size: 3rem;
+    }
+
+    footer {
+        display: flex;
+        padding: 5px 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main{
+        display: grid;
+        grid: repeat(2, 60px);
+    }
+
+    .hero {
+        grid-column: 1/2;
+    }
+    
+    .summary {
+        grid-column: 2/2;
+    }
+    
+    .spotlights {
+        grid-column: 2/2;
+        grid-row: 3;
+    }
+    
+    .drink {
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+
+    .weather {
+        grid-column: 1/2;
+        grid-row: 3;
+    }
+
+}
+
+/*Desktop views ***********************************/
+@media only screen and (min-width: 60em) {
+
+    .logo{
+        width: 150px;
+    }
+    
+    nav button {display:none;}
+    
+    nav ul#primaryNav {
+        display:flex;
+        justify-content: center;
+        margin-left: 2vw;
+    }
+    
+    nav ul li a{
+        border: none;
+        padding: .5rem 1rem;
+    }
+    
+    main{
+        grid: repeat(9, auto) / auto auto;
+    }
+
+    .hero {
+        grid-column: 2/4;
+        grid-row: 1/6;
+    }
+    
+    .summary {
+        grid-column: 1/6;
+        grid-row: 6/9;
+    }
+    
+    .spotlights {
+        display: flex;
+        flex-direction: column;
+        grid-column: 4/4;
+        grid-row: 1/3;
+    }
+    
+    .drink {
+        grid-column: 4/4;
+        grid-row: 3/6;
+    }
+    
+    .weather {
+        grid-column: 1/1;
+        grid-row: 1/6;
+    }
+
+    body {
+        grid: repeat(3, auto) / auto auto;
+    }
+
+    body section {
+        grid-column: 1/3;
+    }
+
+    body nav {
+        grid-column: 3/9;
+        grid-row: 1/1;
+        display: flex;
+    }
+
+    .social {
+        margin:auto;
+        padding: 5px;
+    }
+}
+    

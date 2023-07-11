@@ -1,0 +1,19 @@
+  
+  // Fetch the fruit data from fruit.json
+  fetch('fruit.json')
+    .then(response => response.json())
+    .then(data => {
+      const companies = data.companies;
+  
+      // Populate list view
+      const listView = document.getElementById('list-view');
+      companies.forEach(company => {
+        const listItem = document.createElement('div');
+        listItem.classList.add('list-item');
+        listItem.innerHTML = `
+          <h2>${company.name}</h2>
+          <p>Address: ${company.address}</p>
+          <p>Phone: ${company.phonenumber}</p>
+        `;
+      });
+  });

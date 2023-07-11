@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Final Project: Bountiful Foods</title>
+        <meta name="description"  content="The final project for Natalie Hamel in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+        <link rel='stylesheet' type="text/css" href="styles/fresh.css" media="screen">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="icon" href="favicons.ico">
+    </head>
+    <body>
+        <header>
+            <img class ='logo' src="images/logo.jpg" alt="logo"> 
+            <section class="headings">
+                <h1>Bountiful Foods</h1>
+                <div class="m">Organic and Locally Grown</div>
+                <p><span class = "currentdate"></span></p>
+                <script src="scripts/script.js"></script>
+            </section>
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav"> 
+                    <li><a href='https://nataliehamel.github.io/wdd230/final/home.html'>Home</a></li>
+                    <li><a href='https://nataliehamel.github.io/wdd230/final/fresh.html'>Fresh</a></li>
+                    <li><a href='https://nataliehamel.github.io/wdd230/final/aboutus.html'>About Us</a></li>
+                </ul>
+                <a class= "social" href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook"></a>
+                <a class= "social" href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="Twitter"></a>
+            </nav>
+        </header>
+        <main>
+            <section class="form">
+                <form method="get" action="thankyou.html" onsubmit="setTimestamp()">
+                    <h1>Make your speciality drink!</h1>
+                    <fieldset>
+                        <legend>Client Information</legend>
+                        <label>First Name* <input type="text" name="fname" required></label><br><br>
+                        <label>Last Name <input type="text" name="lname"></label><br><br>
+                        <label>Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label><br><br>
+                        <label>Phone* <input type="tel" name="phone" placeholder="1235551234" required></label><br><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Order Options</legend>
+                        <h5>Select up to 3 fruits: </h5>
+                        <div class="fruit-container">
+                            <div id="list-view"></div>
+                        </div>
+                        <label for="special-instructions">Special Instructions:</label><br>
+                        <textarea id="special-instructions" name="special-instructions" rows="4" cols="50"></textarea><br><br>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Complete Order</legend>
+                        <input type="hidden" id="form-loaded-datetime" name="form-loaded-datetime" value="">
+                        <input type="submit" value="Order" onclick="setTimestamp()">
+                    </fieldset>
+                </form>
+            </section>
+            <section class="gallery1">
+                <h2>Our Classics</h2>
+                <img src="images/drink2.jpg" alt="drink"><figcaption>Watermelon Lemonade</figcaption>
+                <img src="images/drink7.jpg" alt="drink"><figcaption>Chocolate Orange Milkshake</figcaption>
+                <img src="images/drink3.jpg" alt="drink"><figcaption>Cherry Citrus Refresher</figcaption>
+            </section>
+            <section class="gallery2">
+                <img src="images/drink4.jpg" alt="drink"><figcaption>Berry Smoothie</figcaption>
+                <img src="images/drink5.jpg" alt="drink"><figcaption>Grapefruit Lemonade</figcaption>
+                <img src="images/drink6.jpg" alt="drink"><figcaption>Strawberry and Banana Milkshake</figcaption>
+                <img src="images/drink.jpg" alt="drink"><figcaption>Watermelon Lime Refresher</figcaption>
+            </section>
+        </main>
+        <footer>
+            <img class ='logo' src="images/logo.jpg" alt="logo"> 
+            <h3>Bountiful Foods</h3>
+            <h4>41777 Bay Ln, Carlsbad, California</h4>
+            <a href='#'>info@bountifulfoods.org</a>
+            <h4>+(760) 123-4567</h4>
+            <p>📍Location Map</p>
+            <section class="footer">
+                <h4>@ 2023 Bountiful Foods</h4>
+                <p>Natalie Hamel</p>
+                <h4>WDD 230 Final Project</h4>
+                <div id="lastModified">Last updated: <span class = "currentdate"></span></div>
+                <script src ="scripts/script.js"></script>
+                <script src ="scripts/toggle.js"></script>
+                <script src ="scripts/windchill.js"></script>
+                <script src="scripts/drink.js"></script>
+            </section>
+        </footer>
+    </body>
+</html>

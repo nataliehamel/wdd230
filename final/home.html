@@ -5,15 +5,15 @@
         <meta name="viewport" content="width=device-width">
         <title>Final Project: Bountiful Foods</title>
         <meta name="description"  content="The final project for Natalie Hamel in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-        <link rel='stylesheet' type="text/css" href="base.css" media="screen">
+        <link rel='stylesheet' type="text/css" href="styles/base.css" media="screen">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
-        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="favicons.ico">
     </head>
     <body>
         <header>
-            <img class ='logo' src="images/logo.png" alt="logo"> 
+            <img class ='logo' src="images/logo.jpg" alt="logo"> 
             <section class="headings">
                 <h1>Bountiful Foods</h1>
                 <div class="m">Organic and Locally Grown</div>
@@ -49,30 +49,19 @@
                 <h3>Visit us and many other wonderful attractions!</h3>
                 <p>Carlsbad is home to many beautiful and fun sites! Visit Tamarack Surf Beach, the Legoland theme park, the flower fields, or the Leo Carrillo Ranch Historic Park which is home to free-roaming peacocks, and of course us!</p>
             </section>
-            <section class="spotlights">
-                <div class="p">
-                    <h2>Shaver Lake Sports Inc</h2>
-                    <h3>"Best Lake Amenities in Town!"</h3>
-                    <img class="spotlight" src="images/sportsinc.jpg" alt="sports">
-                    <p>Address: 41777 Tollhouse Rd, Shaver Lake, CA 93664</p>
-                    <p>Phone: 559-841-2740</p>
-                    <p>Website: https://www.shaverlakesports.com/</p>
-                </div>
-                <p> </p>
-                <div class="p">
-                    <h2>Hungry Hut</h2>
-                    <h3>Open 11am-7pm on weekdays and 11am-8pm on weekends</h3>
-                    <img class="spotlight" src="images/hungryhut.jpg" alt="sports">
-                    <p>Address: 42008 Tollhouse Rd, Shaver Lake, CA, 93664</p>
-                    <p>Phone: 559-841-3222</p>
-                    <p>Website: https://www.hungryhutshaver.com/</p>
-                </div>
-            </section>
             <section class="drink">
+                <p>Make your own specialized fruit drink with our organic and locally grown produce!</p>
                 <form action="https://nataliehamel.github.io/wdd230/final/fresh.html">
                     <button type="button">Create a new drink!</button>
                 </form>
-                <p>Make your own specialized fruit drink with our organic and locally grown produce!</p>
+            </section>
+            <section class="spotlights">
+                <div class="p">
+                    <section>
+                        <p id="drinkInfo"></p>
+                    </section>
+                    <img class="drinkpic" src="images/drink2.jpg" alt="drink">
+                </div>
             </section>
             <section class="weather">
                 <h2>Weather</h2>
@@ -85,7 +74,7 @@
             </section>
         </main>
         <footer>
-            <img class ='logo' src="images/logo.png" alt="logo"> 
+            <img class ='logo' src="images/logo.jpg" alt="logo"> 
             <h3>Bountiful Foods</h3>
             <h4>41777 Bay Ln, Carlsbad, California</h4>
             <a href='#'>info@bountifulfoods.org</a>
@@ -99,6 +88,7 @@
                 <script src ="scripts/script.js"></script>
                 <script src ="scripts/toggle.js"></script>
                 <script src ="scripts/windchill.js"></script>
+                <script src="scripts/drink.js"></script>
             </section>
         </footer>
     </body>
