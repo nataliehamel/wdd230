@@ -237,15 +237,9 @@ body nav{
     grid-column: 2/2;
 }
 
-.spotlight {
-    max-width: 70%;
-    max-height: auto;
-}
-
 
 img {
     max-width:  85%;
-    max-height: auto;
     padding: 15px;
 }
 
@@ -282,7 +276,6 @@ img {
 
     main{
         display: grid;
-        grid: repeat(2, 60px);
     }
 
     h1{
