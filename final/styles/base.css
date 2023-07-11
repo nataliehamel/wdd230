@@ -237,11 +237,11 @@ body nav{
     grid-column: 2/2;
 }
 
-.spotlight {
-    max-width: 70%;
+
+.flowers {
+    max-width: 75%;
     max-height: auto;
 }
-
 
 /*Tablet views ***********************************/
 @media only screen and (min-width: 37.5em) {
@@ -366,6 +366,11 @@ body nav{
     .social {
         margin:auto;
         padding: 5px;
+    }
+
+    .flowers {
+        max-width: 25%;
+        max-height: auto;
     }
 }
     
